@@ -1,0 +1,124 @@
+<html>
+
+<head>
+
+</head>
+
+<body style="background-image:url('reva gate.jpg');
+								background-attachment:fixed">
+	</style>
+
+	<form method="" action="">
+		<table border="0" bgcolor="grey" cellpadding="10" cellspacing="10" align="center"
+			style="color:white;	border:30px solid-black;	box-shadow:0px 0px 20px black;	border-radius:20px; opacity:0.8">
+			<tr>
+				<td>ID</td>
+				<td><input type="number" autofocus value="100" readonly></td>
+				<td></td>
+			</tr>
+
+
+			<tr>
+				<td>name</td>
+				<td><input type="text" name="name" id="name" autofocus placeholder="Enter the name" required></td>
+			</tr>
+
+
+			<tr>
+				<td>Email</td>
+				<td><input type="email" name="mail" id="mail" placeholder="Enter Email" required></td>
+			</tr>
+
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" name="gen" id="gen" value="male">male
+					<input type="radio" name="gen" id="gen" value="female">female</td>
+			</tr>
+
+			<tr>
+				<td>Language</td>
+				<td><input type="checkbox" name="g1" id="g1" value="java">Java
+					<input type="checkbox" name="g2" id="g2" value="cordova">Cordova
+					<input type="checkbox" name="g3" id="g3" value="python">Python
+				</td>
+			</tr>
+
+			<tr>
+				<td>Address</td>
+				<td><textarea rows="5" cols="30"></textarea> </td>
+			</tr>
+
+			<tr>
+				<td>Country</td>
+				<td><select name="Country" id="Country">
+						<option>--- Select Country ---</option>
+						<option value="India">India</option>
+						<option value="USA">USA</option>
+						<option value="UK">UK</option>
+					</Select>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td>Courses</td>
+				<td><select>
+						<optgroup label="Hardware">
+							<option>CCNA</option>
+							<option>CCNP</option>
+							<option>Networking</option>
+						</optgroup>
+
+						<optgroup label="Software">
+							<option>Java</option>
+							<option>Cordova</option>
+							<option>Python</option>
+						</optgroup>
+					</select>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td>Dob</td>
+				<td><input type="date" name="dob" id="dob" min="09-09-2019" max="09-09-2022"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="file"></td>
+			</tr>
+			<tr>
+				<td>Time</td>
+				<td><input type="time" name="time" id="time"></td>
+			</tr>
+
+			<tr>
+				<td>Phone Number</td>
+				<td><input type="number" name="ph" id="ph" maxlength="10"></td>
+			</tr>
+
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="pass" id="pass" pattern="[A-Za-z0-9]{8,}"
+						title="Please type atleast 8 or more character"></td>
+			</tr>
+
+			<tr>
+				<td>Color</td>
+				<td><input type="color"></td>
+			</tr>
+
+			<tr>
+				<td>Range</td>
+				<td><input type="range"></td>
+			</tr>
+
+			<tr>
+				<td><input type="submit" value="register">
+					<input type="reset" value="clear"></td>
+			</tr>
+
+		</table>
+</body>
+
+</html>
